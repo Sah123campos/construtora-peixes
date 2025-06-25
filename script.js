@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Ativar animação quando a seção for visível
     const sobreSection = document.querySelector('.sobre-nos');
     const observerOptions = {
-        threshold: 0.5
+        threshold: 0.1
     };
     
     const observer = new IntersectionObserver((entries) => {
